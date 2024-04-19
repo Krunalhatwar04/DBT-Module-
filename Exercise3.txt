@@ -1,0 +1,53 @@
+Que 1) SELECT UPPER(Sname) AS UPPER_Case_Name FROM Supplier;
++-----------------+
+| Lower_Case_Name |
++-----------------+
+| supplier 1      |
+| supplier 2      |
+| supplier 3      |
+| supplier 4      |
+| supplier 5      |
+| supplier 6      |
++-----------------+
+Que 3)
+ SELECT LOWER(Sname) AS Lower_Case_Name FROM Supplier;
++-----------------+
+| Lower_Case_Name |
++-----------------+
+| supplier 1      |
+| supplier 2      |
+| supplier 3      |
+| supplier 4      |
+| supplier 5      |
+| supplier 6      |
++-----------------+
+
+Que 4)
+
+
+mysql> select REPLACE (Sname,'r','R') from Supplier;
++-------------------------+
+| REPLACE (Sname,'r','R') |
++-------------------------+
+| SupplieR 1              |
+| SupplieR 2              |
+| SupplieR 3              |
+| SupplieR 4              |
+| SupplieR 5              |
+| SupplieR 6              |
++-------------------------+
+
+Que5)
+
+Select Sname,LENGTH(Sname) as length from Supplier;
++------------+--------+
+| Sname      | length |
++------------+--------+
+| Supplier 1 |     10 |
+| Supplier 2 |     10 |
+| Supplier 3 |     10 |
+| Supplier 4 |     10 |
+| Supplier 5 |     10 |
+| Supplier 6 |     10 |
++------------+--------+
+Que 6)
